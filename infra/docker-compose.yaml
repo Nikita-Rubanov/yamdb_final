@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: serhrazym/api_yamdb:latest
+    image: serhrazym/api_yamdb:v1.0
     restart: always
     volumes:
       - static_value:/app/static/
