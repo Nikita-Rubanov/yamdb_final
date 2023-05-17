@@ -10,9 +10,7 @@ services:
       - ./.env
 
   web:
-    build:
-      context: ../api_yamdb
-      dockerfile: Dockerfile
+    image: serhrazym/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
