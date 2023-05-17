@@ -111,7 +111,7 @@ class Genre(CommonGroupModel):
 class Title(models.Model):
     '''Модель произведения.'''
 
-    def validate_year(year: int) -> None:
+    def validate_year(self, year: int) -> None:
         if dt.datetime.now().year < year:
             raise ValidationError("year not valid value")
 
