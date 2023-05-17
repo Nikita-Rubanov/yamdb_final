@@ -5,13 +5,7 @@ from typing import Any, List
 from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.db import IntegrityError
-
-from reviews.models import (Category,
-                            Comment,
-                            Genre,
-                            Review,
-                            Title,
-                            User)
+from reviews.models import Category, Comment, Genre, Review, Title, User
 
 model_by_filename = [
     ('category', Category),
