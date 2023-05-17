@@ -1,17 +1,9 @@
 from django.urls import include, path
-
 from rest_framework import routers
 
-from api.views import (CategoryViewSet,
-                       GenreViewSet,
-                       TitleViewSet,
-                       get_jwt_token,
-                       register,
-                       UserViewSet,
-                       ReviewViewSet,
-                       CommentViewSet,
-                       )
-
+from api.views import (CategoryViewSet, CommentViewSet, GenreViewSet,
+                       ReviewViewSet, TitleViewSet, UserViewSet, get_jwt_token,
+                       register)
 
 V1_PATH = 'v1/'
 

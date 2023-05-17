@@ -11,20 +11,15 @@ from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from api.filters import TitleFilter
 from api.mixins import AdminControlSlugViewSet
 from api.permissions import AdminOnly, AdminOrReadOnly, IsAuthorOrModerOrAdmin
-from api.serializers import (CategorySerializer,
-                             CommentsSerializer,
-                             GenreSerializer,
-                             ListRetrieveTitleSerializer,
-                             RegisterDataSerializer,
-                             ReviewSerializer,
-                             TitleSerializer,
-                             TokenSerializer,
-                             UserSerializer)
-from reviews.models import Category, Genre, Review, Title, User
+from api.serializers import (CategorySerializer, CommentsSerializer,
+                             GenreSerializer, ListRetrieveTitleSerializer,
+                             RegisterDataSerializer, ReviewSerializer,
+                             TitleSerializer, TokenSerializer, UserSerializer)
 
 
 @api_view(['POST'])
