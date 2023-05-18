@@ -1,5 +1,7 @@
 # Api_yamdb
 
+https://github.com/Nikita-Rubanov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+
 ## Описание
 
 Проект позволяет оставлять отзывы о произведениях (фильмах, книгах, музыке и т.д.).
