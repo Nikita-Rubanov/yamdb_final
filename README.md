@@ -2,6 +2,10 @@
 
 https://github.com/Nikita-Rubanov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
+Ссылка на проект:
+
+http://51.250.2.178/admin/
+
 ## Описание
 
 Проект позволяет оставлять отзывы о произведениях (фильмах, книгах, музыке и т.д.).
