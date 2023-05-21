@@ -4,7 +4,7 @@ https://github.com/Nikita-Rubanov/yamdb_final/actions/workflows/yamdb_workflow.y
 
 Ссылка на проект:
 
-http://51.250.2.178/admin/
+http://51.250.7.220/redoc/
 
 ## Описание
 
